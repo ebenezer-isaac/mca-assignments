@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".create_vault"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Vault"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create Vault"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/lock_key" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <EditText
+        android:id="@+id/pass_new"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="New Password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+    <EditText
+        android:id="@+id/pass_conf"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_gravity="center"
+        android:inputType="textPassword" />
+</LinearLayout>

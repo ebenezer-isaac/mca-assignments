@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StudentDB</string>
+    <string-array name="hostel_statuses">
+        <item>Hosteller</item>
+        <item>Day Scholar</item>
+    </string-array>
+</resources>
