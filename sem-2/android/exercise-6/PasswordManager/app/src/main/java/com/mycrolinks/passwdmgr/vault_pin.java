@@ -1,9 +1,12 @@
 package com.mycrolinks.passwdmgr;
 
-//import android.Manifest;
+import android.Manifest;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -20,19 +23,19 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.safetynet.SafetyNet;
 import com.google.firebase.auth.FirebaseAuth;
 
-//import android.graphics.Color;
-//import android.location.Location;
-//import android.view.View;
-//import androidx.annotation.NonNull;
+import android.graphics.Color;
+import android.location.Location;
+import android.view.View;
+import androidx.annotation.NonNull;
 
-//import pub.devrel.easypermissions.AfterPermissionGranted;
-//import pub.devrel.easypermissions.EasyPermissions;
+import pub.devrel.easypermissions.AfterPermissionGranted;
+import pub.devrel.easypermissions.EasyPermissions;
 
 @SuppressWarnings("deprecation")
 public class vault_pin extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks {
-    //private final int REQUEST_LOCATION_PERMISSION = 1;
+    private final int REQUEST_LOCATION_PERMISSION = 1;
     GoogleSignInAccount signInAccount;
-    //String[] loc;
+    String[] loc;
     String password_db;
     Button unlock, logout, delete;
     CheckBox checkbox;
@@ -87,9 +90,15 @@ public class vault_pin extends AppCompatActivity implements GoogleApiClient.Conn
             }
         });
 
-        //requestLocationPermission();
-        //LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        //locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0,  this);
+        requestLocationPermission();
+        LocationListener a = location -> {
+            loc[0] = String.valueOf(location.getLatitude());
+            loc[1] = String.valueOf(location.getLongitude());
+            System.out.println(loc[0]);
+            System.out.println(loc[1]);
+        };
+        LocationManager locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+        locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, a);
 
     }
 
@@ -103,30 +112,22 @@ public class vault_pin extends AppCompatActivity implements GoogleApiClient.Conn
 
     }
 
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-//        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-//
-//        // Forward results to EasyPermissions
-//        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
-//    }
-//
-//    @AfterPermissionGranted(REQUEST_LOCATION_PERMISSION)
-//    public void requestLocationPermission() {
-//        String[] perms = {Manifest.permission.ACCESS_FINE_LOCATION};
-//        if (EasyPermissions.hasPermissions(this, perms)) {
-//            Toast.makeText(this, "Permission already granted", Toast.LENGTH_SHORT).show();
-//        } else {
-//            EasyPermissions.requestPermissions(this, "Please grant the location permission", REQUEST_LOCATION_PERMISSION, perms);
-//        }
-//    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
-//    @Override
-//    public void onLocationChanged(@NonNull Location location) {
-//        loc[0] = String.valueOf(location.getLatitude());
-//        loc[1] = String.valueOf(location.getLongitude());
-//        System.out.println(loc[0]);
-//        System.out.println(loc[1]);
-//
-//    }
+        // Forward results to EasyPermissions
+        EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
+    }
+
+    @AfterPermissionGranted(REQUEST_LOCATION_PERMISSION)
+    public void requestLocationPermission() {
+        String[] perms = {Manifest.permission.ACCESS_FINE_LOCATION};
+        if (EasyPermissions.hasPermissions(this, perms)) {
+            Toast.makeText(this, "Permission already granted", Toast.LENGTH_SHORT).show();
+        } else {
+            EasyPermissions.requestPermissions(this, "Please grant the location permission", REQUEST_LOCATION_PERMISSION, perms);
+        }
+    }
+
 }
