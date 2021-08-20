@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, latitude + "\n" + longitude, Toast.LENGTH_SHORT).show();
             System.out.println(latitude + ", " + longitude);
             locationManager.removeUpdates(locationListener);
-            TextView lat = (TextView) findViewById(R.id.latitude);
-            TextView lon = (TextView) findViewById(R.id.longitude);
-            TextView link = (TextView) findViewById(R.id.link);
+            TextView lat = findViewById(R.id.latitude);
+            TextView lon = findViewById(R.id.longitude);
+            TextView link = findViewById(R.id.link);
             lat.setText("Latitude : " + latitude);
             lon.setText("Longitude : " + longitude);
             link.setText("https://www.google.com/maps/@" + latitude + "," + longitude + ",17z");
