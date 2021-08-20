@@ -14,7 +14,7 @@ public class app {
                             Choose from the following :
                             1. Display records
                             2. Insert records
-                            3. Delete all records
+                            3. Delete a records
                             4. Exit
                                                         
                             """

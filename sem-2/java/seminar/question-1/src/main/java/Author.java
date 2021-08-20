@@ -42,11 +42,16 @@ public class Author {
 
     public static void delete(Connection con) {
         try {
-            PreparedStatement ps = con.prepareStatement("truncate authors");
+            System.out.println();
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter ID of author to delete : ");
+            int id = sc.nextInt();
+            PreparedStatement ps = con.prepareStatement("delete from authors where id = ?");
+            ps.setInt(1, id);
             ps.executeUpdate();
-            System.out.println("Records Emptied Successfully");
+            System.out.println("Author Deleted Successfully");
         } catch (Exception e) {
-            System.out.println("An Error Occurred while deleting records");
+            System.out.println("An Error Occurred while deleting the record");
             e.printStackTrace();
         }
     }
