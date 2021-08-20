@@ -9,7 +9,7 @@ public class app {
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println(
-                    """
+                            """
                             
                             Choose from the following :
                             1. Display records
