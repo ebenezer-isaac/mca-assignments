@@ -9,15 +9,12 @@ public class app {
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println(
-                            """
-                            
-                            Choose from the following :
-                            1. Display records
-                            2. Insert records
-                            3. Delete a records
-                            4. Exit
-                                                        
-                            """
+                    "\nChoose from the following :\n" +
+                            "1. Display records\n" +
+                            "2. Insert records\n" +
+                            "3. Delete a records\n" +
+                            "4. Exit\n"
+
             );
             choice = sc.nextInt();
             switch (choice) {

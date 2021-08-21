@@ -5,43 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e43db5e3-abf0-45cf-ae33-0313cf799fe1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i.len" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/storage_v2/_src_/schema/bank.PAYuAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/storage_v2/_src_/schema/bank.PAYuAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question-4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PersonQueries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/PersonQueries.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/app.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../~$estions.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/play2_compiler_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../question-9/question-9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/question-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/question-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/src/main/java/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/src/main/java/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/target/classes/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/target/classes/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/target/classes/DBHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/target/classes/DBHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-1/target/classes/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-1/target/classes/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/question-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/question-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/target/classes/ResultSetTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/target/classes/ResultSetTableModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/target/classes/app$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/target/classes/app$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-2/target/classes/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/target/classes/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../question-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-3/question-3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/question-3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-3/target/classes/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/target/classes/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question-4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/question-4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PersonQueries.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PersonQueries.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-5-to-8/library-store/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-5-to-8/library-store/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-5-to-8/library-store/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-5-to-8/library-store/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question-5-to-8/library-store/target/library-store-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../question-5-to-8/library-store/target/library-store-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../~$estions.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +91,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -80,25 +99,27 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../question-1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="app" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="app" />
       <module name="question-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.app" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,11 +129,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629531585412</updated>
-      <workItem from="1629531586714" duration="1040000" />
+      <workItem from="1629531586714" duration="2875000" />
+      <workItem from="1629547807723" duration="1370000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
