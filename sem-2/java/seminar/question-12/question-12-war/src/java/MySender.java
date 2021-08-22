@@ -26,7 +26,7 @@ public class MySender extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            String message = request.getParameter("name");
+            String message = request.getParameter("message");
             sendJMSMessageToMyTopic(message);
             out.print("Your name was sent successfully as message.");
         }
@@ -34,12 +34,6 @@ public class MySender extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-        processRequest(request, response);
-    }
-
-    @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
     }

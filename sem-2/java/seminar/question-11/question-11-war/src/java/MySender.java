@@ -26,7 +26,7 @@ public class MySender extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
-            String message = request.getParameter("name");
+            String message = request.getParameter("message");
             sendJMSMessageToMyQueue(message);
             out.print("Your name was sent successfully as message.");
         }

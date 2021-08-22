@@ -1,4 +1,4 @@
-package question11;
+package question12;
 
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;
