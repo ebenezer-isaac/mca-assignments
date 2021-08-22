@@ -8,17 +8,14 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
-@JMSDestinationDefinition(name = "myQueue", interfaceName = "javax.jms.Queue", resourceAdapter = "jmsra", destinationName = "myQueue")
+@JMSDestinationDefinition(name = "myQueue", interfaceName = "javax.jms.Queue", resourceAdapter = "jmsra", 
+        destinationName = "myQueue")
 @MessageDriven(activationConfig = {
     @ActivationConfigProperty(propertyName = "destinationLookup", propertyValue = "myQueue")
-    ,
-        @ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue")
+    ,@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue")
 })
 public class MyListener implements MessageListener {
-    
-    public MyListener() {
-    }
-    
+    public MyListener() {}
     @Override
     public void onMessage(Message message) {
         try {
@@ -29,5 +26,4 @@ public class MyListener implements MessageListener {
             e.printStackTrace();
         }
     }
-    
 }

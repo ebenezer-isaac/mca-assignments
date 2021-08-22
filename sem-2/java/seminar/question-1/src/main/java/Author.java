@@ -13,7 +13,7 @@ public class Author {
         System.out.println("Enter Last Name :");
         String lastname = sc.nextLine();
         try {
-            PreparedStatement ps = con.prepareStatement("insert into authors(firstname, lastname) values(?,?)");
+            PreparedStatement ps = con.prepareStatement("insert into authors(first_name, last_name) values(?,?)");
             ps.setString(1, firstname);
             ps.setString(2, lastname);
             ps.executeUpdate();
@@ -46,7 +46,7 @@ public class Author {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter ID of author to delete : ");
             int id = sc.nextInt();
-            PreparedStatement ps = con.prepareStatement("delete from authors where id = ?");
+            PreparedStatement ps = con.prepareStatement("delete from authors where author_id = ?");
             ps.setInt(1, id);
             ps.executeUpdate();
             System.out.println("Author Deleted Successfully");
