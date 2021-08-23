@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Full Stack Lab 2</title>
+</head>
+<script>
+	function dispNaturals(){
+		for(a = 1; a<=10 ; a++){
+			console.log(a);
+		}
+	}
+
+	function checkPalindrome(str){
+    	for (let i = 0; i < str.length / 2; i++) {
+	        if (str[i] !== str[str.length - 1 - i]) {
+            	alert("The given string is not a palindrome")
+            	return;
+        	}
+    	}
+    	alert("The given string is a palindrome")
+	}
+
+	function checkPrime(num) {
+  		for(var i = 2; i < num; i++)
+    		if(num % i === 0) {
+    			alert("The given number is not a prime number")
+    			return 
+    		}
+  		alert("The given number is a prime number");
+	}
+	function printPyramid(size) {
+    	var text = '';
+    	for (var i = 1; i <= size; i++) {
+    		for (var j = size-i; j > 0; j--) {
+            	text +=' ';
+        	}
+        	text += '*';
+	        for (var k = 2; k <= i; k++) {
+            	text += '**';
+        	}
+        	console.log(text);
+        	text = '';
+    	}
+	}
+
+	var isPalindrome = function(str) {
+    if (str.length < 2) {
+        return true;
+    }
+
+    if (firstCharacter(str) == lastCharacter(str)) {
+        return isPalindrome(middleCharacters(str));
+    }
+
+    return false;
+};
+	function checkPalindrome_recur(str){
+		console.log(str)
+    	if (str.length < 2) {
+        	alert("The given string is a palindrome")
+        	return
+    	}
+    	if (str.charAt(0) == str.charAt(str.length-1)) {
+    		return checkPalindrome_recur(str.substring(1,str.length-1));
+    	}else{
+    		alert("The given string is not a palindrome")
+    		return
+    	}
+	}
+
+	function printPyramid_recur(curr, size) {
+		if (curr<=size){
+			text='';
+			for (var j = size-curr; j > 0; j--) {
+            	text +=' ';
+        	}
+        	text += '*';
+	        for (var k = 2; k <= curr; k++) {
+            	text += '**';
+        	}
+        	console.log(text);
+        	curr+=1;
+        	printPyramid_recur(curr, size);
+		}    	
+	}
+
+	let x = 1;
+	var y = 2;
+	console.log(x);
+	console.log(y);
+	console.log(x+y);
+	console.log(x-y);
+	console.log(x/y);
+	console.log(x*y);
+	console.log(parseFloat(x)+y);
+	console.log("This is internal reference");
+</script>
+
+<body>
+	This is a sample text.<br><br>
+	<button onclick='javascript:alert(Date())'> Display Date</button><br><br>
+	<button onclick='dispNaturals()'> Display Natural Numbers using looping</button><br><br>
+
+	<button onclick='javascript:checkPalindrome(window.prompt("Enter a string to check if it is a palindrome : "))'> Palindrome</button><br><br>
+	<button onclick='javascript:checkPrime(parseInt(window.prompt("Enter an integer to check if it is a prime number : ")))'> Prime Number</button><br><br>
+	<button onclick='javascript:printPyramid(parseInt(window.prompt("Enter the size of the pyramid : ")))'> Pyramid</button><br><br>
+
+	<button onclick='javascript:checkPalindrome_recur(window.prompt("Enter a string to check if it is a palindrome : "))'> Palindrome with recur </button><br><br>
+	<button onclick='javascript:alert("Implementing the function to check prime number with recursion is not feasible becuase it uses unnecessary/more computational resources to perform the same functionality compared to a normal function.")'> Prime Number with recur </button><br><br>
+	<button onclick='javascript:printPyramid_recur(1, parseInt(window.prompt("Enter the size of the pyramid : ")))'> Pyramid with recur </button><br><br>
+</body>
+</html>

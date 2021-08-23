@@ -1,0 +1,81 @@
+<html>
+	<script>
+		//Question 1
+		for(var i = 0; i<5;i++){
+			var text = "";
+			for(var j = 0;j<i;j++){
+				text+=j;
+			}
+			console.log(text)
+		}
+
+		//Question 2
+		var str = window.prompt("Enter a string : ")
+		var flag = 0;
+		for(var i = 0; i<str.length;i++){
+			if(["a","e","i","o","u"].some(test => str.charAt(i).toLowerCase().includes(test))){
+				alert("The left most vowel in the string is at position : "+(i+1))
+				flag=1;
+				break;
+			}
+		}
+		if(flag==0){
+			alert("The string doesnt have any vowel");
+		}
+		var num = window.prompt("Enter a number to print in reverse order : ")
+		num = num+""
+		var reverse=""
+		for(var i =num.length-1;i>=0;i--){
+			reverse+=num[i];
+		}
+		alert("The reverse of the given number is : "+reverse)
+
+		//Question 3
+		function fibonacci(num){
+    		var num1=0;
+    		var num2=1;
+    		var sum;
+    		var i=0;
+    		var series = "0 1 ";
+    		for (i = 0; i < num-2; i++) {
+        		sum=num1+num2;
+		        series=series +sum+" "
+		        num1=num2;
+		        num2=sum;
+    		}
+    		return series;
+		}
+		function printTable(num){
+			for(var i=1;i<=10;i++){
+				console.log(i+"*"+num+"="+i*num)
+			}
+		}
+  		console.log(fibonacci(window.prompt("Enter a number greater than 2 to print fibonacci series : ")))
+  		console.log(printTable(window.prompt("Enter a number to print its multiplication table : ")))
+
+		//Question 4
+        function fadeIn() {
+            var main = document.getElementById("main");
+			var  color = (main.style.color+"").replace("rgb(","").replace(")","").replace(" ","").split(",");
+			if(color[0] < 255){
+				color[0] = Number(color[0])+1;
+                main.style.color = "rgb("+color[0]+","+color[1]+","+color[2]+")"; 
+                setTimeout(fadeIn,1)
+			}else if(color[2] < 255){
+            	color[2] = Number(color[2])+1;
+                main.style.color = "rgb("+color[0]+","+color[1]+","+color[2]+")"; 
+                setTimeout(fadeIn,1)
+            }else if (color[1] < 255) {
+                color[1] = Number(color[1])+1;
+                main.style.color = "rgb("+color[0]+","+color[1]+","+color[2]+")"; 
+                setTimeout(fadeIn,1)
+            }
+        }
+	</script>
+	<body onload="fadeIn()">
+		<div id = 'main' style='color:#000000'>
+			sample text
+		</div>
+		<button onclick="window.location.replace('page2.html')"> Go to page 2</button>
+	</body>
+</html>
