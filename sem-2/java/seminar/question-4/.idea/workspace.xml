@@ -5,16 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e43db5e3-abf0-45cf-ae33-0313cf799fe1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../question-11/.idea/ant.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/dataSources/a0c34fe6-6869-402e-9536-c82e4011d409/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../question-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../question-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 1.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 10.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 11.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 12.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 12.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 2.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/JAVA SEMINAR 3.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/Question 5,6,7,8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/Question 5,6,7,8.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 4.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 7.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 8.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 9.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINAR 9.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINARJAVA10.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/SEMINARJAVA11.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/contacts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/seminar 4.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../documentation_tobesorted/seminar 7.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d81bee69-3233-4f37-bab8-efe89225f193/entities/entities.dat_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +104,7 @@
       <workItem from="1629531586714" duration="2875000" />
       <workItem from="1629547807723" duration="1370000" />
       <workItem from="1629701288560" duration="1066000" />
+      <workItem from="1629774408243" duration="328000" />
     </task>
     <servers />
   </component>

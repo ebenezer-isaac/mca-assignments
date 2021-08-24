@@ -1,3 +1,0 @@
-Name,Surname,Phone,Mobile,E-mail,Street,Number,Town,Zip
-shankar,shan,44242334,999999999,shan@gmail.com,chennai,12,tamilnadu,627002
-chandru,chand,44213234,987456321,chanddru@gmail.com,anna street,12,chennai,627004
