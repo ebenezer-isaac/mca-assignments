@@ -16,3 +16,5 @@
 /sem-2/java/seminar/question-12/question-12-ejb/dist/
 /sem-2/java/seminar/question-12/question-12-war/dist/
 /sem-2/java/seminar/question-12/dist/
+bin/
+node_modules/
