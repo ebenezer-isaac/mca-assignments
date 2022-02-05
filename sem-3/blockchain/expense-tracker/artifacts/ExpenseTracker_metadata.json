@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "int64",
+						"name": "amount",
+						"type": "int64"
+					}
+				],
+				"name": "addTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transaction",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "transactionOwner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "transactionDescription",
+						"type": "string"
+					},
+					{
+						"internalType": "int64",
+						"name": "amount",
+						"type": "int64"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transactionCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/expense-tracker/expense-tracker.sol": "ExpenseTracker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/expense-tracker/expense-tracker.sol": {
+			"keccak256": "0x33b45cd6d398403a61ed7bf4db92fc9f4d7fe628862907ca5ca889ffcd211052",
+			"urls": [
+				"bzz-raw://f64ee29cc638b321358addae00ac5853d9622578df5a165467089a55b127f8f8",
+				"dweb:/ipfs/QmcBGKRjK7X9Qp9qT4SMBPm1vcbcJmS4ykUuZXz5WjCTH6"
+			]
+		}
+	},
+	"version": 1
+}
