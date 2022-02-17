@@ -1,0 +1,10 @@
+1. Linear Regression
+2. Multiple Regression
+3. kNN
+4. SVD
+5. Naive Bayes
+6. Cart - Decision Tree
+7. C4.5 - Decision Tree
+8. ID3 - Decision Tree
+9. SVM
+10. PCA
